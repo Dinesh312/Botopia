@@ -1,5 +1,5 @@
 const Nightmare = require('nightmare')
-const nightmare = Nightmare({ show: true , dock: true})
+const nightmare = Nightmare({ show: true , dock: true })
  
 nightmare
   .goto('https://datadome.co')

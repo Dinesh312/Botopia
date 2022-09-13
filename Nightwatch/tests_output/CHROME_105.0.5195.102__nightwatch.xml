@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="nightwatch"
+    errors="2" failures="0" hostname="" id="" package="nightwatch" skipped="0"
+    tests="1" time="5.022" timestamp="">
+  
+    <testcase name="Demo test" classname="nightwatch" time="5.022" assertions="0">
+    <error message="Error while running &#34;waitUntil&#34; command: [TimeoutError] Wait timed out after 5007ms" type="error"><![CDATA[
+    Error
+    at DescribeInstance.&lt;anonymous&gt; (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/nightwatch.js:6:10)
+    at Context.call (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/testsuite/context.js:433:35)
+    at TestCase.run (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.__runFn (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/testsuite/index.js:693:80)
+    at Runnable.run (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+    at TestSuite.createRunnable (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/testsuite/index.js:800:33)
+    at TestSuite.handleRunnable (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/testsuite/index.js:805:33)
+    at /home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/testsuite/index.js:693:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/node_modules/nightwatch/lib/runner/test-runners/default.js:73:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       → TimeoutError
+
+    Wait timed out after 5007ms
+ → TimeoutError
+
+    Error while running &#34;waitUntil&#34; command: [TimeoutError] Wait timed out after 5007ms
+
+    Error location:
+/home/local/ZOHOCORP/dinesh-pt5648/work/botScripts/Nightwatch/nightwatch.js:
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+ 4 |     it(&#39;Demo test&#39;, function(browser) {
+ 5 |       browser
+ 6 |         .waitUntil(() =&gt; {}, 5000) 
+ 7 |     });
+ 8 |   
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
