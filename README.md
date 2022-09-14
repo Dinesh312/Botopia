@@ -43,7 +43,7 @@
 
 ## **Selenium** 
 
-[The official docs of selenium-webdriver] (https://www.selenium.dev/documentation/webdriver/)
+[The official docs of selenium-webdriver](https://www.selenium.dev/documentation/webdriver/)
 
 💡 Selenium-webdriver will often throw an error saying its chrome webdriver is not compatible with the latest version of chrome browser. So everytime there is a SessionNotCreated Error, we have to manually download the latest chromdriver for the current chrome version and extract it into the right directory. Refer [this](https://medium.com/fusionqa/selenium-webdriver-error-sessionnotcreatederror-session-not-created-this-version-of-7b3a8acd7072) for more instuctions.
 -------------------------------------------------------------------------------------------
