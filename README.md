@@ -126,11 +126,29 @@ Appium is a great automation tool but cannot be used to drive web UI
 
 Appium is used for the OS automation like Android, MacOS, Windows using the webdrivers. But it is not built for automating the Web Applications hence it is of very less use for us.
 
-## Katalan Studio
+## [Katalan Studio]
 
-## TestComplete
+[Docs](https://docs.katalon.com/docs/katalon-studio-enterprise/welcome-to-katalon-studio)
 
-## Cypress.io
+- Katalon is a free Web UI automation tool with a GUI
+- Here one can create a recording session where we go to an url
+- As we interact with the Web UI, the corresponding CSS selectors and xPaths will be recorded in the background 
+- The actions will be written as scripts in rust and the tests can be done several times in multiple browsers and can be debugged at any stage
+
+## **TestComplete** 
+
+[Docs](https://support.smartbear.com/testcomplete/docs/app-testing/web/general/about.html)
+
+- TestComplete is another GUI automation tool used similar to the Katalan
+
+## **Cypress.io** 
+
+[Docs](https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn)
+
+- Cypress is a tool with that can open GUI like interfaces within any chrome, firefox or electron.
+- The scripts are written like the specs which are like with the extension .cy.js 
+- This runs the test with many browsers and viewports.
+- Each requests and responses can also be tracked and console logged into the dev tools
 
 ## Ranorex Studio
 
