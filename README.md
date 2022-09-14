@@ -39,6 +39,8 @@
 - Hence the IE is also vulnerable to the bot attacks
 - However very few automation tools seem to support IE and they are not quite stable in the recent versions
 
+***
+
 # Lists of Automation Tools
 
 ## Note:
