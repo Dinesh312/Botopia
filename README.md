@@ -92,13 +92,15 @@ Geb is indeed a great automation tool that supports all webdrivers, all browser 
 
 ## **CasperJS** - [Docs](https://www.casperjs.org/)
 
-CasperJS runs on phantomJS and that explains how unsatable it can be
+CasperJS runs on phantomJS.
 
 - [Headless Automation Using CasperJS - Automation Laboratories](https://www.automationlaboratories.com/headless-automation/headless-automation-using-casperjs/)
 
 ## **SlimerJS** - [Docs](https://docs.slimerjs.org/current/index.html)
 
-[slimerjs command doesn't do anything after install](https://stackoverflow.com/questions/29145538/slimerjs-command-doesnt-do-anything-after-install)
+SlimerJS runs on top of gecko with and works very similar to casperJS
+
+[Slimerjs command doesn't do anything after install](https://stackoverflow.com/questions/29145538/slimerjs-command-doesnt-do-anything-after-install)
 
 ## **Appium**
 
