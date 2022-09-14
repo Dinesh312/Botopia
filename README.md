@@ -41,43 +41,44 @@
 
 # Lists of Automation Tools
 
+## Note:
+
+- Selenium-webdriver will often throw an error saying its chrome webdriver is not compatible with the latest version of chrome browser. So everytime there is a SessionNotCreated Error, we have to manually download the latest chromdriver for the current chrome version and extract it into the right directory. 
+
+- Refer [this](https://medium.com/fusionqa/selenium-webdriver-error-sessionnotcreatederror-session-not-created-this-version-of-7b3a8acd7072) for more instuctions
+
+- In case of firefox browser, we would need the geckodriver to be dowloaded from [here](https://github.com/mozilla/geckodriver/releases/)
+
+
 ## **Selenium** 
 
-[The official docs of selenium-webdriver](https://www.selenium.dev/documentation/webdriver/)
+[Selenium Docs](https://www.selenium.dev/documentation/webdriver/)
 
-💡 Selenium-webdriver will often throw an error saying its chrome webdriver is not compatible with the latest version of chrome browser. So everytime there is a SessionNotCreated Error, we have to manually download the latest chromdriver for the current chrome version and extract it into the right directory. Refer [this](https://medium.com/fusionqa/selenium-webdriver-error-sessionnotcreatederror-session-not-created-this-version-of-7b3a8acd7072) for more instuctions.
--------------------------------------------------------------------------------------------
+[Selenium Stealth Docs](https://github.com/diprajpatra/selenium-stealth)
 
-💡 In case of firefox browser, we would need the geckodriver to be dowloaded from [here](https://github.com/mozilla/geckodriver/releases/)
+## **Puppeteer**
 
+[Docs](https://pptr.dev/)
 
-Selenium Stealth is showing up with this issue !
+[Puppeteer-extra-plugin-stealth - Docs](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
 
-```
-An error occurred when executing cdp command from undefined
-```
+## **Playwright**
 
-## [**Puppeteer**](https://www.notion.so/Puppeteer-66f19d257b8b4809aa4bebf4f49877bb)
+[Docs](https://playwright.dev/docs/intro)
 
-[Puppeteer | Puppeteer](https://pptr.dev/)
+[Puppeteer-extra/packages/playwright-extra at automation-extra - Docs](https://github.com/berstend/puppeteer-extra/tree/automation-extra/packages/playwright-extra#readme)
 
-[puppeteer-extra-plugin-stealth](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
+## **Pyppeteer** 
 
-## [**Playwright**](https://www.notion.so/Playwright-23b7f23d12bd4d348851b7398b81596a)
+[Docs](https://pyppeteer.github.io/pyppeteer/reference.html)
 
-[playwright](https://www.npmjs.com/package/playwright)
-
-[puppeteer-extra/packages/playwright-extra at automation-extra · berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra/tree/automation-extra/packages/playwright-extra#readme)
-
-## [Pyppeteer](https://www.scrapingbee.com/blog/pyppeteer/)
-
-[https://github.com/pyppeteer/pyppeteer](https://github.com/pyppeteer/pyppeteer)
-
-[Pyppeteer](https://pyppeteer.github.io/pyppeteer/reference.html)
+[Github repo](https://github.com/pyppeteer/pyppeteer)
 
 Essentially puppeteer designed for the python so as to make it manipulate the dynamic web elements as python is just meant for it.
 
-## [PhantomJS](https://www.npmjs.com/package/nightmare)
+## **PhantomJS**
+
+[Docs](https://phantomjs.org/)
 
 Phantom JS has deprecated and the development has been stopped long ago. 
 
@@ -89,23 +90,35 @@ Hence can still be checked for its presence in the ua but cannot be used to hit 
 
 [phantomjs and simple examples gives TypeError: Attempting to change the setter of an unconfigurable property](https://stackoverflow.com/questions/60593099/phantomjs-and-simple-examples-gives-typeerror-attempting-to-change-the-setter-o)
 
-## [Nightmare](https://github.com/segmentio/nightmare)
+## **Nightmare**
 
-Nightmare is built on top of electron and cannot be used on any other browsers except chromium.
+[Docs](https://github.com/segmentio/nightmare)
 
-## [Geb](https://www.gebish.org/)
+Nightmare is built on top of electron and cannot be used on any other browsers.
 
-Geb is indeed a great automation tool that supports all webdrivers, all browser configurations with ONE caveat. It can only be written in Groovy 😟
+## **Geb**
 
-## [Casperjs](https://gorillalogic.com/blog/software-automation-frameworks-series-part-casperjs-phantomjs/)
+[Docs](https://www.gebish.org/)
+
+Geb is indeed a great automation tool that supports all webdrivers, all browser configurations. It can only be written in Groovy 
+
+## **CasperJS** 
+
+There is no official docs for CasperJS. Only few referrence links 
+
+- https://gorillalogic.com/blog/software-automation-frameworks-series-part-casperjs-phantomjs/
 
 [Headless Automation Using CasperJS - Automation Laboratories](https://www.automationlaboratories.com/headless-automation/headless-automation-using-casperjs/)
 
-## [Slimerjs](https://docs.slimerjs.org/current/index.html)
+## **SlimerJS**
+
+[Docs](https://docs.slimerjs.org/current/index.html)
 
 [slimerjs command doesn't do anything after install](https://stackoverflow.com/questions/29145538/slimerjs-command-doesnt-do-anything-after-install)
 
-## Appium
+## **Appium**
+
+Appium is a great automation tool but cannot be used to drive web UI
 
 [Can appium automate desktop web browsers?](https://discuss.appium.io/t/can-appium-automate-desktop-web-browsers/746)
 
