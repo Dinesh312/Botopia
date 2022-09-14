@@ -130,8 +130,4 @@ SlimerJS runs on top of gecko with and works very similar to casperJS
 
 ### 🔻 **Perfecto** - [Docs](https://help.perfecto.io/perfecto-get-started/content/perfecto/get-started/home-get-started.htm)
 
-<<<<<<< HEAD
 ### 🔻 **Lambda Test** - [Docs](https://www.lambdatest.com/support/docs/)
-=======
-### 🔻 **Lambda Test** - [Docs](https://www.lambdatest.com/support/docs/)
->>>>>>> 025f32ae0865039dea2f2143408598e1de6957e0
