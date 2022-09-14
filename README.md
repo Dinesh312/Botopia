@@ -5,7 +5,7 @@
 ### In Chrome
 
 - The Chrome runs on chromium and the chrome driver is required for the selenium webdirver to "drive" the web UI 
-- Get the latest chrome driver installed from this [here](https://chromedriver.storage.googleapis.com/index.html)
+- Get the latest chrome driver installed from [here](https://chromedriver.storage.googleapis.com/index.html)
 - Download the selenium-webdriver and make sure the version is compatible with your chrome’s version
 - Choose the language you are going to write a script with require the webdriver for the chrome
 - Chrome is probably the most easily suited for automation for almost all of the tools
@@ -13,7 +13,7 @@
 ### In Firefox
 
 - The Firefox runs on gecko engine and the gecko driver is required for the selenium webdirver to "drive" the web UI 
-- Get the latest gecko driver installed from this [here](https://github.com/mozilla/geckodriver/releases/)
+- Get the latest gecko driver installed from [here](https://github.com/mozilla/geckodriver/releases/)
 - Download the zip or taz file
 - Extract and include in the path
 - For more references visit this [page](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu)
