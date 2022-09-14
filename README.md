@@ -56,9 +56,7 @@
 
 [Selenium Stealth Docs](https://github.com/diprajpatra/selenium-stealth)
 
-## **Puppeteer**
-
-[Docs](https://pptr.dev/)
+## **Puppeteer** - [Docs](https://pptr.dev/)
 
 [Puppeteer-extra-plugin-stealth - Docs](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
 
