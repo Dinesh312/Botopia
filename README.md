@@ -90,13 +90,11 @@ Nightmare is built on top of electron and cannot be used on any other browsers.
 
 Geb is indeed a great automation tool that supports all webdrivers, all browser configurations. It can only be written in Groovy 
 
-## **CasperJS** 
+## **CasperJS** - [Docs](https://www.casperjs.org/)
 
-There is no official docs for CasperJS. Only few referrence links 
+CasperJS runs on phantomJS and that explains how unsatable it can be
 
-- https://gorillalogic.com/blog/software-automation-frameworks-series-part-casperjs-phantomjs/
-
-[Headless Automation Using CasperJS - Automation Laboratories](https://www.automationlaboratories.com/headless-automation/headless-automation-using-casperjs/)
+- [Headless Automation Using CasperJS - Automation Laboratories](https://www.automationlaboratories.com/headless-automation/headless-automation-using-casperjs/)
 
 ## **SlimerJS** - [Docs](https://docs.slimerjs.org/current/index.html)
 
