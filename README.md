@@ -84,6 +84,10 @@ Essentially puppeteer designed for the python so as to make it manipulate the dy
 
 Nightmare is built on top of electron and cannot be used on any other browsers.
 
+## 🔻 **Nightwatch** - [Docs](https://nightwatchjs.org/guide/quickstarts/create-and-run-a-nightwatch-test.html)
+
+Nightwatch is similar to playwright except it does not record our interactions but can the .js scripts can be written and run easily
+
 ## 🔻 **Geb** - [Docs](https://www.gebish.org/)
 
 Geb is indeed a great automation tool that supports all webdrivers, all browser configurations. It can only be written in Groovy 
