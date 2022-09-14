@@ -74,11 +74,9 @@ Essentially puppeteer designed for the python so as to make it manipulate the dy
 
 ## **PhantomJS** - [Docs](https://phantomjs.org/)
 
-Phantom JS has deprecated and the development has been stopped long ago. 
-
-It throws a lot of errors even now when tried to automate with ubuntu. 
-
-Hence can still be checked for its presence in the ua but cannot be used to hit sites.
+- Phantom JS has deprecated and the development has been stopped long ago. 
+- It throws a lot of errors even now when tried to automate with ubuntu. 
+- Hence can still be checked for its presence in the ua but cannot be used to hit sites.
 
 [Problems directly using PhantomJS in node.js](https://stackoverflow.com/questions/15487321/problems-directly-using-phantomjs-in-node-js)
 
@@ -106,11 +104,9 @@ There is no official docs for CasperJS. Only few referrence links
 
 ## **Appium**
 
-Appium is a great automation tool but cannot be used to drive web UI
-
-[Can appium automate desktop web browsers?](https://discuss.appium.io/t/can-appium-automate-desktop-web-browsers/746)
-
-Appium is used for the OS automation like Android, MacOS, Windows using the webdrivers. But it is not built for automating the Web Applications hence it is of very less use for us.
+- Appium is a great automation tool but cannot be used to drive web UI
+- [Can appium automate desktop web browsers?](https://discuss.appium.io/t/can-appium-automate-desktop-web-browsers/746)
+- Appium is used for the OS automation like Android, MacOS, Windows using the webdrivers. But it is not built for automating the Web Applications hence it is of very less use for us.
 
 ## Katalan Studio - [Docs](https://docs.katalon.com/docs/katalon-studio-enterprise/welcome-to-katalon-studio)
 
