@@ -112,7 +112,7 @@ Appium is a great automation tool but cannot be used to drive web UI
 
 Appium is used for the OS automation like Android, MacOS, Windows using the webdrivers. But it is not built for automating the Web Applications hence it is of very less use for us.
 
-## [Katalan Studio] - [Docs](https://docs.katalon.com/docs/katalon-studio-enterprise/welcome-to-katalon-studio)
+## Katalan Studio - [Docs](https://docs.katalon.com/docs/katalon-studio-enterprise/welcome-to-katalon-studio)
 
 - Katalon is a free Web UI automation tool with a GUI
 - Here one can create a recording session where we go to an url
@@ -130,8 +130,10 @@ Appium is used for the OS automation like Android, MacOS, Windows using the webd
 - This runs the test with many browsers and viewports.
 - Each requests and responses can also be tracked and console logged into the dev tools
 
-## **Ranorex Studio** - [Docs](https://www.ranorex.com/help/latest/ranorex-studio-fundamentals/ranorex-studio/introduction/)
+## Other Automation tools with GUI
 
-## **Perfecto** - [Docs](https://help.perfecto.io/perfecto-get-started/content/perfecto/get-started/home-get-started.htm)
+### **Ranorex Studio** - [Docs](https://www.ranorex.com/help/latest/ranorex-studio-fundamentals/ranorex-studio/introduction/)
 
-## **Lambda Test** - [Docs](https://www.lambdatest.com/support/docs/)
+### **Perfecto** - [Docs](https://help.perfecto.io/perfecto-get-started/content/perfecto/get-started/home-get-started.htm)
+
+### **Lambda Test** - [Docs](https://www.lambdatest.com/support/docs/)
