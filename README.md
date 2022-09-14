@@ -1,21 +1,19 @@
 # Automation Tools
 
-[https://github.com/antoinevastel/bots-zoo](https://github.com/antoinevastel/bots-zoo)
-
-Bots ⇒ Bot variations ⇒ different browsers
-
-### How to run bots on various browsers
+## How to run bots on various browsers
 
 ### In Chrome
 
-- Get the chrome driver installed from this [site](https://chromedriver.storage.googleapis.com/index.html)
-- Download the version which is compatible with your chrome’s version
-- Chrome is probably the most easily available for almost all of the tools
-- Hence refer proper docs acquire the necessary packages
+- The Chrome runs on chromium and the chrome driver is required for the selenium webdirver to "drive" the web UI 
+- Get the latest chrome driver installed from this [here](https://chromedriver.storage.googleapis.com/index.html)
+- Download the selenium-webdriver and make sure the version is compatible with your chrome’s version
+- Choose the language you are going to write a script with require the webdriver for the chrome
+- Chrome is probably the most easily suited for automation for almost all of the tools
 
 ### In Firefox
 
-- The geckodriver can be installed from [here](https://github.com/mozilla/geckodriver/releases/)
+- The Firefox runs on gecko engine and the gecko driver is required for the selenium webdirver to "drive" the web UI 
+- Get the latest gecko driver installed from this [here](https://github.com/mozilla/geckodriver/releases/)
 - Download the zip or taz file
 - Extract and include in the path
 - For more references visit this [page](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu)
@@ -23,7 +21,7 @@ Bots ⇒ Bot variations ⇒ different browsers
 ### In Brave
 
 - Since the Brave basically runs on Chromium, it has pretty much the same deps as Chrome
-- Make sure you give the right path for the options parameter
+- Make sure you give the right executable path (/usr/bin/brave-browser) for the options parameter
 
 [How to run Selenium tests on the Brave web browser?](https://stackoverflow.com/questions/47158434/how-to-run-selenium-tests-on-the-brave-web-browser)
 
@@ -37,7 +35,9 @@ Bots ⇒ Bot variations ⇒ different browsers
 
 ### In Internet Explorer
 
-IMAGINE USING IE LOL
+- Though a minority of people use Internet Explorer that does not mean any bot would try to hit in it
+- Hence the IE is also vulnerable to the bot attacks
+- However very few automation tools seem to support IE and they are not quite stable in the recent versions
 
 ## [**Selenium**](https://www.notion.so/Selenium-e88c60f39d1e4a18b78d0952439b8e86)
 
