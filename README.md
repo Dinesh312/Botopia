@@ -52,9 +52,7 @@
 - In case of firefox browser, we would need the geckodriver to be dowloaded from [here](https://github.com/mozilla/geckodriver/releases/)
 
 
-## **Selenium** 
-
-[Selenium Docs](https://www.selenium.dev/documentation/webdriver/)
+## **Selenium** - [Docs](https://www.selenium.dev/documentation/webdriver/)
 
 [Selenium Stealth Docs](https://github.com/diprajpatra/selenium-stealth)
 
@@ -64,23 +62,17 @@
 
 [Puppeteer-extra-plugin-stealth - Docs](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
 
-## **Playwright**
-
-[Docs](https://playwright.dev/docs/intro)
+## **Playwright** - [Docs](https://playwright.dev/docs/intro)
 
 [Puppeteer-extra/packages/playwright-extra at automation-extra - Docs](https://github.com/berstend/puppeteer-extra/tree/automation-extra/packages/playwright-extra#readme)
 
-## **Pyppeteer** 
-
-[Docs](https://pyppeteer.github.io/pyppeteer/reference.html)
+## **Pyppeteer** - [Docs](https://pyppeteer.github.io/pyppeteer/reference.html)
 
 [Github repo](https://github.com/pyppeteer/pyppeteer)
 
 Essentially puppeteer designed for the python so as to make it manipulate the dynamic web elements as python is just meant for it.
 
-## **PhantomJS**
-
-[Docs](https://phantomjs.org/)
+## **PhantomJS** - [Docs](https://phantomjs.org/)
 
 Phantom JS has deprecated and the development has been stopped long ago. 
 
@@ -92,15 +84,11 @@ Hence can still be checked for its presence in the ua but cannot be used to hit 
 
 [phantomjs and simple examples gives TypeError: Attempting to change the setter of an unconfigurable property](https://stackoverflow.com/questions/60593099/phantomjs-and-simple-examples-gives-typeerror-attempting-to-change-the-setter-o)
 
-## **Nightmare**
-
-[Docs](https://github.com/segmentio/nightmare)
+## **Nightmare** - [Docs](https://github.com/segmentio/nightmare)
 
 Nightmare is built on top of electron and cannot be used on any other browsers.
 
-## **Geb**
-
-[Docs](https://www.gebish.org/)
+## **Geb** - [Docs](https://www.gebish.org/)
 
 Geb is indeed a great automation tool that supports all webdrivers, all browser configurations. It can only be written in Groovy 
 
@@ -112,9 +100,7 @@ There is no official docs for CasperJS. Only few referrence links
 
 [Headless Automation Using CasperJS - Automation Laboratories](https://www.automationlaboratories.com/headless-automation/headless-automation-using-casperjs/)
 
-## **SlimerJS**
-
-[Docs](https://docs.slimerjs.org/current/index.html)
+## **SlimerJS** - [Docs](https://docs.slimerjs.org/current/index.html)
 
 [slimerjs command doesn't do anything after install](https://stackoverflow.com/questions/29145538/slimerjs-command-doesnt-do-anything-after-install)
 
@@ -126,36 +112,26 @@ Appium is a great automation tool but cannot be used to drive web UI
 
 Appium is used for the OS automation like Android, MacOS, Windows using the webdrivers. But it is not built for automating the Web Applications hence it is of very less use for us.
 
-## [Katalan Studio]
-
-[Docs](https://docs.katalon.com/docs/katalon-studio-enterprise/welcome-to-katalon-studio)
+## [Katalan Studio] - [Docs](https://docs.katalon.com/docs/katalon-studio-enterprise/welcome-to-katalon-studio)
 
 - Katalon is a free Web UI automation tool with a GUI
 - Here one can create a recording session where we go to an url
 - As we interact with the Web UI, the corresponding CSS selectors and xPaths will be recorded in the background 
 - The actions will be written as scripts in rust and the tests can be done several times in multiple browsers and can be debugged at any stage
 
-## **TestComplete** 
-
-[Docs](https://support.smartbear.com/testcomplete/docs/app-testing/web/general/about.html)
+## **TestComplete** - [Docs](https://support.smartbear.com/testcomplete/docs/app-testing/web/general/about.html)
 
 - TestComplete is another GUI automation tool used similar to the Katalan
 
-## **Cypress.io** 
-
-[Docs](https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn)
+## **Cypress.io** - [Docs](https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn)
 
 - Cypress is a tool with that can open GUI like interfaces within any chrome, firefox or electron.
 - The scripts are written like the specs which are like with the extension .cy.js 
 - This runs the test with many browsers and viewports.
 - Each requests and responses can also be tracked and console logged into the dev tools
 
-## Ranorex Studio
+## **Ranorex Studio** - [Docs](https://www.ranorex.com/help/latest/ranorex-studio-fundamentals/ranorex-studio/introduction/)
 
-## Perfecto
+## **Perfecto** - [Docs](https://help.perfecto.io/perfecto-get-started/content/perfecto/get-started/home-get-started.htm)
 
-## Lambda Test
-
-## SoapUI
-
-## Eggplant
+## **Lambda Test** - [Docs](https://www.lambdatest.com/support/docs/)
