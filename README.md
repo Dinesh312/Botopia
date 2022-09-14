@@ -39,19 +39,17 @@
 - Hence the IE is also vulnerable to the bot attacks
 - However very few automation tools seem to support IE and they are not quite stable in the recent versions
 
-## [**Selenium**](https://www.notion.so/Selenium-e88c60f39d1e4a18b78d0952439b8e86)
+# Lists of Automation Tools
 
-[https://github.com/SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium)
+## **Selenium** 
 
-<aside>
+[The official docs of selenium-webdriver] (https://www.selenium.dev/documentation/webdriver/)
+
 💡 Selenium-webdriver will often throw an error saying its chrome webdriver is not compatible with the latest version of chrome browser. So everytime there is a SessionNotCreated Error, we have to manually download the latest chromdriver for the current chrome version and extract it into the right directory. Refer [this](https://medium.com/fusionqa/selenium-webdriver-error-sessionnotcreatederror-session-not-created-this-version-of-7b3a8acd7072) for more instuctions.
+-------------------------------------------------------------------------------------------
 
-</aside>
-
-<aside>
 💡 In case of firefox browser, we would need the geckodriver to be dowloaded from [here](https://github.com/mozilla/geckodriver/releases/)
 
-</aside>
 
 Selenium Stealth is showing up with this issue !
 
