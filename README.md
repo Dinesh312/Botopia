@@ -124,7 +124,7 @@ SlimerJS runs on top of gecko with and works very similar to casperJS
 - This runs the test with many browsers and viewports.
 - Each requests and responses can also be tracked and console logged into the dev tools
 
-## Other Automation tools with GUI
+## Other notable automation tools with GUI
 
 ### 🔻 **Ranorex Studio** - [Docs](https://www.ranorex.com/help/latest/ranorex-studio-fundamentals/ranorex-studio/introduction/)
 
