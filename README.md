@@ -117,7 +117,7 @@ SlimerJS runs on top of gecko with and works very similar to casperJS
 
 - TestComplete is another GUI automation tool used similar to the Katalan
 
-## **Cypress.io** - [Docs](https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn)
+## 🔻 **Cypress.io** - [Docs](https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn)
 
 - Cypress is a tool with that can open GUI like interfaces within any chrome, firefox or electron.
 - The scripts are written like the specs which are like with the extension .cy.js 
